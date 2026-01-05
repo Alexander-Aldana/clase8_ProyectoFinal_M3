@@ -3,11 +3,14 @@ package com.devsenior.jaldana;
 import com.devsenior.jaldana.exception.CursoLlenoException;
 import com.devsenior.jaldana.model.Curso;
 import com.devsenior.jaldana.model.Estudiante;
-import com.devsenior.jaldana.model.Inscripcion;
 import com.devsenior.jaldana.service.CursoService;
 import com.devsenior.jaldana.service.InscripcionService;
+import org.apache.logging.log4j.*;
+
 
 public class Main {
+
+    private static final Logger logger = LogManager.getLogger(Main.class);
     public static void main(String[] args) {
     
         CursoService cursoService = new CursoService();
