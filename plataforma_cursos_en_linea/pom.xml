@@ -28,7 +28,7 @@
             <version>2.20.0</version>
         </dependency>
 
-        <dependency>
+        <dependency> // configuro la dependencia para que tenga un alcance hasta la carpeta test o trabaje sobre la carpeta test
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.11.3</version>
